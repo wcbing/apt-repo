@@ -32,7 +32,6 @@ curl -fsSL https://packages.wcbing.top/deb/del.sh | sudo sh
 | [QQ](https://im.qq.com/linuxqq/) | linuxqq | ✅ | ✅ |
 | [QQ音乐](https://y.qq.com/download/download.html) | qqmusic | ✅ | |
 | [腾讯会议](https://meeting.tencent.com/download/) | wemeet | ✅ | ✅ |
-| [WPS Office](https://linux.wps.cn/) | wps-office | ✅ | |
 | [百度网盘](https://pan.baidu.com/download) | baidunetdisk | ✅ | |
 | [钉钉](https://www.dingtalk.com/download/) | com.alibabainc.dingtalk | ✅ | |
 | [飞书](https://www.feishu.cn/download) | bytedance-feishu-stable | ✅ | |
@@ -91,6 +90,7 @@ curl -fsSL https://packages.wcbing.top/deb/del.sh | sudo sh
 |[lazydocker: wcbing 打包](https://github.com/wcbing-build/lazydocker-debs)|lazydocker| ✅ | ✅ |
 |[lazygit: wcbing 打包](https://github.com/wcbing-build/lazygit-debs)|lazygit| ✅ | ✅ |
 |[nexttrace: wcbing 打包](https://github.com/wcbing-build/nexttrace-debs)|nexttrace| ✅ | ✅ |
+|Debian 中文社区软件源|anydesk<br />marktext<br />wps-office<br />[更多](https://github.com/debiancn/repo)| ✅ | |
 
 ## 自建仓库
 

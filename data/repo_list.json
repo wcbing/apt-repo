@@ -97,5 +97,10 @@
         "name": "nexttrace",
         "repo": "https://github.com/wcbing-build/nexttrace-debs/releases/latest/download/",
         "mix_path": "Packages"
+    },
+    {
+        "name": "debiancn",
+        "repo": "https://mirrors.cernet.edu.cn/debiancn/",
+        "amd64_path": "dists/bookworm/main/binary-amd64/Packages.gz"
     }
 ]
