@@ -2,6 +2,8 @@
 
 gen_release() {
     apt-ftparchive release $1 >$1/Release
+    gpg --yes --detach-sign -a -o $1/Release.gpg $1/Release
+    gpg --yes --clearsign -o $1/InRelease $1/Release
 }
 
 # check for updates
