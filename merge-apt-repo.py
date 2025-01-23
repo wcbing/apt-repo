@@ -68,9 +68,9 @@ def get_remote_packages(repo_url, file_path):
 
 
 def get_latest(deb_packages):
-    # divide the information of each packet, store it in infoList
+    # split the information of each packet, store it in infoList
     # 将每个包的信息分割开，存放到 infoList 中
-    deb_packages = deb_packages.replace(b"Package: ", b"{{start}}Package: ")
+    deb_packages = re.sub(rb"^Package: ", b"{{start}}Package: ", deb_packages, flags=re.MULTILINE)
     info_list = deb_packages.split(b"{{start}}")[1:]
 
     find_name = re.compile(rb"Package: (.+)")
@@ -78,19 +78,22 @@ def get_latest(deb_packages):
     find_version = re.compile(rb"Version: (.+)")
 
     for v in info_list:
-        name = find_name.search(v).group(1).decode()
-        arch = find_arch.search(v).group(1).decode()
-        tmp_version = find_version.search(v).group(1).decode()
-        with lock[arch]:
-            if (
-                name not in package_version[arch]
-                or os.system(
-                    f"dpkg --compare-versions {tmp_version} gt {package_version[arch][name]}"
-                )
-                == 0
-            ):
-                package_version[arch][name] = tmp_version
-                package_info[arch][name] = v
+        try:
+            name = find_name.search(v).group(1).decode()
+            arch = find_arch.search(v).group(1).decode()
+            tmp_version = find_version.search(v).group(1).decode()
+            with lock[arch]:
+                if (
+                    name not in package_version[arch]
+                    or os.system(
+                        f"dpkg --compare-versions {tmp_version} gt {package_version[arch][name]}"
+                    )
+                    == 0
+                ):
+                    package_version[arch][name] = tmp_version
+                    package_info[arch][name] = v
+        except Exception as e:
+            logging.error(f"Error processing package {name}: {e}")
     return
 
 
