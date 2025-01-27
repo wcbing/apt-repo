@@ -1,4 +1,4 @@
-WEB_CONTENT=$(curl -s "https://u.tools/download/")
+WEB_CONTENT=$(curl -s "https://www.u-tools.cn/download/")
 
 X64_URL=$(echo $WEB_CONTENT | grep -o "https://[^ ]*amd64\.deb")
 
