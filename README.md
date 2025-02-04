@@ -84,12 +84,11 @@ curl -fsSL https://packages.wcbing.top/deb/del.sh | sudo sh
 |Typora|typora| ✅ | ✅ |
 |Zotero|zotero<br />zotero-beta<br />zotero6| ✅ | |
 |Github CLI|gh| ✅ | ✅ |
-|[ttyd: wcbing 打包](https://github.com/wcbing-build/ttyd-debs)|ttyd| ✅ | ✅ |
 |[dufs: wcbing 打包](https://github.com/wcbing-build/dufs-debs)|dufs| ✅ | ✅ |
 |[frp: wcbing 打包](https://github.com/wcbing-build/frp-debs)|frps<br />frpc| ✅ | ✅ |
 |[lazydocker: wcbing 打包](https://github.com/wcbing-build/lazydocker-debs)|lazydocker| ✅ | ✅ |
 |[lazygit: wcbing 打包](https://github.com/wcbing-build/lazygit-debs)|lazygit| ✅ | ✅ |
-|[nexttrace: wcbing 打包](https://github.com/wcbing-build/nexttrace-debs)|nexttrace| ✅ | ✅ |
+|[NextTrace](https://github.com/nxtrace/nexttrace-debs)|nexttrace| ✅ | ✅ |
 |Debian 中文社区软件源|anydesk<br />marktext<br />wps-office<br />[更多](https://github.com/debiancn/repo)| ✅ | |
 
 ## 自建仓库

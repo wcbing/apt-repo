@@ -69,11 +69,6 @@
         "arm64_path": "dists/stable/main/binary-arm64/Packages.gz"
     },
     {
-        "name": "ttyd",
-        "repo": "https://github.com/wcbing-build/ttyd-debs/releases/latest/download/",
-        "mix_path": "Packages"
-    },
-    {
         "name": "dufs",
         "repo": "https://github.com/wcbing-build/dufs-debs/releases/latest/download/",
         "mix_path": "Packages"
@@ -95,7 +90,7 @@
     },
     {
         "name": "nexttrace",
-        "repo": "https://github.com/wcbing-build/nexttrace-debs/releases/latest/download/",
+        "repo": "https://github.com/nxtrace/nexttrace-debs/releases/latest/download/",
         "mix_path": "Packages"
     },
     {
