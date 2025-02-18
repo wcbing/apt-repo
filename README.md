@@ -1,27 +1,23 @@
-# wcbing（APT）软件源/仓库
+# wcbing APT 软件源/仓库
 
-供 Debian 系发行版用户使用的软件源，收集一些国内常用软件的二进制包。
+适用于 Debian-based 发行版（Debian/Ubuntu/Mint/...）的 APT 软件源/仓库，收集一些国内常用软件的二进制包。
 
-本仓库对于下载不受限的软件不提供文件托管服务，仅提供链接重定向功能，致力于在不改动 APT 的情况下实现类似 WinGet、Homebrew Cask 等仅提供仓库索引的效果。
+本仓库仅提供链接重定向功能，致力于在不改动 APT 的情况下实现类似 WinGet、Homebrew Cask 等仅提供仓库索引的效果。
 
-收录的软件说明：
-- 官方打包发布的文件 ~~，不接受第三方自行打包~~。
-- 有固定的更新地址，如官网、官方仓库或 Github Releases。
-- 不收录打包的 wine 应用、Android 应用。
-- 不收录图标、主题、字体等包，以后可能单独建一个相关仓库。
-- 现主要服务 x86_64 用户，同时实验性支持 arm64，如有需要请参考最后一节自行建立仓库。
 
 ## 使用现有仓库
 
-添加本仓库：
-```sh
-curl -fsSL https://packages.wcbing.top/deb/add.sh | sudo sh
-```
+请于[现有仓库实例](https://packages.wcbing.top/deb/)查看使用方法。
 
-移除本仓库：
-```sh
-curl -fsSL https://packages.wcbing.top/deb/del.sh | sudo sh
-```
+
+## 收录的软件说明
+- 现主要服务 x86_64 用户，同时实验性支持 arm64。  
+如有需要请参考最后一节自行建立仓库。
+- 主要收录官方打包发布的文件，不接受第三方自行打包的商业软件。
+- 有固定的更新地址，如官网、官方仓库或 Github Releases。
+- 不收录打包的 wine 应用、Android 应用。
+- 不收录图标、主题、字体等包，以后可能单独建一个相关仓库。
+
 
 ## 已收录软件
 

@@ -1,6 +1,3 @@
 data/github-local.json
 data/deb.db
-deb/*
-!deb/index.html
-!deb/add.sh
-!deb/del.sh
+deb/
