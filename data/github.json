@@ -98,5 +98,11 @@
             "caddy_{stripped_version}_linux_amd64.deb",
             "caddy_{stripped_version}_linux_arm64.deb"
         ]
+    },
+    "foliate": {
+        "repo": "johnfactotum/foliate",
+        "file_list": [
+            "foliate_{version_tag}_all.deb"
+        ]
     }
 }

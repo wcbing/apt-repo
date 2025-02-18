@@ -57,6 +57,7 @@ curl -fsSL https://packages.wcbing.top/deb/del.sh | sudo sh
 | [hugo](https://github.com/gohugoio/hugo/releases) | hugo | ✅ | ✅ |
 | [RustDesk](https://github.com/rustdesk/rustdesk/releases) | rustdesk | ✅ | ✅ |
 | [Obsidian](https://github.com/obsidianmd/obsidian-releases/releases) | obsidian | ✅ | |
+| [Foliate](https://github.com/johnfactotum/foliate/releases) | foliate |  ✅ | ✅ |
 | [Tabby](https://github.com/Eugeny/tabby/releases) | tabby-terminal | ✅ | ✅ |
 | [Pandoc](https://github.com/jgm/pandoc/releases) | pandoc | ✅ | ✅ |
 | [LocalSend](https://github.com/localsend/localsend/releases) | localsend | ✅ | ✅ |
