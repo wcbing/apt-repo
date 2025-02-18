@@ -23,3 +23,6 @@ sed -i "s|\./|\.\./|g" deb/tmpPackages
 # generate the Release file
 gen_release deb/amd64
 gen_release deb/arm64
+
+# generate the html
+./gen-list-html.py
