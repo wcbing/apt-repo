@@ -1,3 +1,4 @@
 data/github-local.json
 data/deb.db
 deb/
+__pycache__/

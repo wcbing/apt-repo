@@ -18,7 +18,7 @@ def fetch_table_data(db: str) -> dict:
     table_data = {}
     for table in tables:
         table_name = table["name"]
-        cursor.execute(f"SELECT * FROM {table_name}")
+        cursor.execute(f"SELECT * FROM '{table_name}'")
         table_data[table_name] = cursor.fetchall()
 
     conn.close()
