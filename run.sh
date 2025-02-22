@@ -7,7 +7,7 @@ gen_release() {
 }
 
 # check for updates
-$HOME/go/bin/github-downloader -r -o deb
+./get-github-releases.py
 find get -type f -name "*.sh" -exec sh {} \;
 
 cd deb

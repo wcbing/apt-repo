@@ -6,7 +6,7 @@ import sqlite3
 conn = sqlite3.connect("data/deb.db")
 conn.execute(
     """
-        CREATE TABLE IF NOT EXISTS x86_64 (
+        CREATE TABLE IF NOT EXISTS amd64 (
             name TEXT UNIQUE,
             version TEXT,
             url TEXT
@@ -16,6 +16,15 @@ conn.execute(
 conn.execute(
     """
         CREATE TABLE IF NOT EXISTS arm64 (
+            name TEXT UNIQUE,
+            version TEXT,
+            url TEXT
+        );
+    """
+)
+conn.execute(
+    """
+        CREATE TABLE IF NOT EXISTS 'all' (
             name TEXT UNIQUE,
             version TEXT,
             url TEXT

@@ -1,108 +1,108 @@
 {
     "clash-verge": {
         "repo": "clash-verge-rev/clash-verge-rev",
-        "file_list": [
-            "Clash.Verge_{stripped_version}_amd64.deb",
-            "Clash.Verge_{stripped_version}_arm64.deb"
-        ]
+        "file_list": {
+            "amd64": "Clash.Verge_{stripped_version}_amd64.deb",
+            "arm64": "Clash.Verge_{stripped_version}_arm64.deb"
+        }
     },
     "mihomo": {
         "repo": "MetaCubeX/mihomo",
-        "file_list": [
-            "mihomo-linux-amd64-compatible-{version_tag}.deb",
-            "mihomo-linux-arm64-{version_tag}.deb"
-        ]
+        "file_list": {
+            "amd64": "mihomo-linux-amd64-compatible-{version_tag}.deb",
+            "arm64": "mihomo-linux-arm64-{version_tag}.deb"
+        }
     },
     "flclash": {
         "repo": "chen08209/FlClash",
-        "file_list": [
-            "FlClash-{stripped_version}-linux-amd64.deb"
-        ]
+        "file_list": {
+            "amd64": "FlClash-{stripped_version}-linux-amd64.deb"
+        }
     },
     "hugo": {
         "repo": "gohugoio/hugo",
-        "file_list": [
-            "hugo_extended_{stripped_version}_linux-amd64.deb",
-            "hugo_extended_{stripped_version}_linux-arm64.deb"
-        ]
+        "file_list": {
+            "amd64": "hugo_extended_{stripped_version}_linux-amd64.deb",
+            "arm64": "hugo_extended_{stripped_version}_linux-arm64.deb"
+        }
     },
     "rustdesk": {
         "repo": "rustdesk/rustdesk",
-        "file_list": [
-            "rustdesk-{version_tag}-x86_64.deb",
-            "rustdesk-{version_tag}-aarch64.deb"
-        ]
+        "file_list": {
+            "amd64": "rustdesk-{version_tag}-x86_64.deb",
+            "arm64": "rustdesk-{version_tag}-aarch64.deb"
+        }
     },
     "obsidian": {
         "repo": "obsidianmd/obsidian-releases",
-        "file_list": [
-            "obsidian_{stripped_version}_amd64.deb"
-        ]
+        "file_list": {
+            "amd64": "obsidian_{stripped_version}_amd64.deb"
+        }
     },
     "tabby": {
         "repo": "Eugeny/tabby",
-        "file_list": [
-            "tabby-{stripped_version}-linux-x64.deb",
-            "tabby-{stripped_version}-linux-arm64.deb"
-        ]
+        "file_list": {
+            "amd64": "tabby-{stripped_version}-linux-x64.deb",
+            "arm64": "tabby-{stripped_version}-linux-arm64.deb"
+        }
     },
     "pandoc": {
         "repo": "jgm/pandoc",
-        "file_list": [
-            "pandoc-{version_tag}-1-amd64.deb",
-            "pandoc-{version_tag}-1-arm64.deb"
-        ]
+        "file_list": {
+            "amd64": "pandoc-{version_tag}-1-amd64.deb",
+            "arm64": "pandoc-{version_tag}-1-arm64.deb"
+        }
     },
     "localsend": {
         "repo": "localsend/localsend",
-        "file_list": [
-            "LocalSend-{stripped_version}-linux-x86-64.deb",
-            "LocalSend-{stripped_version}-linux-arm-64.deb"
-        ]
+        "file_list": {
+            "amd64": "LocalSend-{stripped_version}-linux-x86-64.deb",
+            "arm64": "LocalSend-{stripped_version}-linux-arm-64.deb"
+        }
     },
     "motrix": {
         "repo": "agalwood/Motrix",
-        "file_list": [
-            "Motrix_{stripped_version}_amd64.deb",
-            "Motrix_{stripped_version}_arm64.deb"
-        ]
+        "file_list": {
+            "amd64": "Motrix_{stripped_version}_amd64.deb",
+            "arm64": "Motrix_{stripped_version}_arm64.deb"
+        }
     },
     "peazip": {
         "repo": "peazip/PeaZip",
-        "file_list": [
-            "peazip_{version_tag}.LINUX.GTK2-1_amd64.deb"
-        ]
+        "file_list": {
+            "amd64": "peazip_{version_tag}.LINUX.GTK2-1_amd64.deb"
+        }
     },
     "neovim": {
         "repo": "neovim/neovim-releases",
-        "file_list": [
-            "nvim-linux64.deb"
-        ]
+        "file_list": {
+            "amd64": "nvim-linux64.deb"
+        }
     },
     "hiddify": {
         "repo": "hiddify/hiddify-app",
-        "file_list": [
-            "Hiddify-Debian-x64.deb"
-        ]
+        "file_list": {
+            "amd64": "Hiddify-Debian-x64.deb"
+        }
     },
     "cloudflared": {
         "repo": "cloudflare/cloudflared",
-        "file_list": [
-            "cloudflared-linux-amd64.deb",
-            "cloudflared-linux-arm64.deb"
-        ]
+        "file_list": {
+            "amd64": "cloudflared-linux-amd64.deb",
+            "arm64": "cloudflared-linux-arm64.deb"
+        }
     },
     "caddy": {
         "repo": "caddyserver/caddy",
-        "file_list": [
-            "caddy_{stripped_version}_linux_amd64.deb",
-            "caddy_{stripped_version}_linux_arm64.deb"
-        ]
+        "file_list": {
+            "amd64": "caddy_{stripped_version}_linux_amd64.deb",
+            "arm64": "caddy_{stripped_version}_linux_arm64.deb"
+        }
     },
     "foliate": {
         "repo": "johnfactotum/foliate",
-        "file_list": [
-            "foliate_{version_tag}_all.deb"
-        ]
+        "file_list": {
+            "all": "foliate_{version_tag}_all.deb"
+        }
     }
 }
