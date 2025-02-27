@@ -76,7 +76,7 @@
     "neovim": {
         "repo": "neovim/neovim-releases",
         "file_list": {
-            "amd64": "nvim-linux64.deb"
+            "amd64": "nvim-linux-x86_64.deb"
         }
     },
     "hiddify": {
