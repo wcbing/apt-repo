@@ -68,7 +68,7 @@
 
 | 软件仓库 | 包名 | amd64 | arm64 |
 | ------ | ---- | ----- | ----- |
-|Mozilla Firefox|firefox<br />firefox_beta<br />firefox_devedition<br />firefox_esr<br />firefox_nightly<br />mozillavpn| ✅ | ✅<br />官方仅提供<br />firefox_nightly |
+|Mozilla Firefox|firefox<br />firefox_beta<br />firefox_devedition<br />firefox_nightly<br />firefox_esr<br />mozillavpn| ✅ | ✅ |
 |Google Chrome|google-chrome-stable<br />google-chrome-beta<br />google-chrome-unstable| ✅ | |
 |Google Earth|google-earth-pro-stable<br />google-earth-ec-stable| ✅ | |
 |Microsoft Edge|microsoft-edge-stable<br />microsoft-edge-beta<br />microsoft-edge-dev| ✅ | |
